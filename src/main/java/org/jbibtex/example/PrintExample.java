@@ -3,10 +3,21 @@
  */
 package org.jbibtex.example;
 
-import java.io.*;
-import java.util.*;
+import java.io.File;
+import java.io.IOException;
+import java.io.Reader;
+import java.io.StringReader;
+import java.util.Collection;
+import java.util.List;
 
-import org.jbibtex.*;
+import org.jbibtex.BibTeXDatabase;
+import org.jbibtex.BibTeXEntry;
+import org.jbibtex.Key;
+import org.jbibtex.LaTeXObject;
+import org.jbibtex.LaTeXParser;
+import org.jbibtex.LaTeXPrinter;
+import org.jbibtex.ParseException;
+import org.jbibtex.Value;
 
 public class PrintExample {
 

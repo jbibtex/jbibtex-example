@@ -3,9 +3,21 @@
  */
 package org.jbibtex.example;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.Reader;
+import java.io.Writer;
 
-import org.jbibtex.*;
+import org.jbibtex.BibTeXDatabase;
+import org.jbibtex.BibTeXEntry;
+import org.jbibtex.BibTeXFormatter;
+import org.jbibtex.BibTeXParser;
+import org.jbibtex.BibTeXString;
+import org.jbibtex.Key;
+import org.jbibtex.ParseException;
 
 public class CopyExample {
 
